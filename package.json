@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "echo \"Starting Server\"\nDEV_SERVER_PORT=4000 DEV_SERVER_ROOT=. dev-server"
   },
   "author": "",
   "license": "ISC",
